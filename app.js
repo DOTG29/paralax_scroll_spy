@@ -12,7 +12,7 @@
 
     const scrollPosition = scrollY
     for (i in sections) {
-        if (sections[i] *0.95 <= scrollPosition) {
+        if (sections[i] *0.85 <= scrollPosition) {
           console.log(sections[i] /2, scrollPosition);
             document.querySelector('.active').setAttribute('class', ' ');
            document.querySelector('a[href*=' + i + ']').setAttribute('class', 'active');
